@@ -1,0 +1,170 @@
+@import url(reset.css);
+
+.column{
+    background-image: url(../com.img/three/heard.png);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto;
+    
+}
+
+.column_1{
+    display: block;
+    /* height: 400px; */
+    /* width: 600px; */
+    /* border: 3px solid blue; */
+    margin-left: 415px;
+    /* margin-bottom: 80px; */
+   
+}
+
+.column_1 h1{
+    font-size: 95px;
+    line-height: 1;
+    white-space:pre-wrap; 
+    margin-top: 16px;
+    text-shadow: 0.1em 0.1em 0.5em #232323;
+    color: #D9D6D0;
+}
+
+.column_1 .h1{
+   color: #52432A;
+   padding-top:  90px;
+}
+
+.column h3{
+    font-size: 32px;
+    line-height: 1.6;
+    text-align: center;
+    color: #D9D6D0;
+    margin-top: 177px;
+    text-shadow: 0.05em 0.05em 0.51em #232323;
+
+}
+
+/* ----------header 大圖結束------------- */
+
+.all{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+.h2{
+    display: block;
+    width: 1200;
+    font-size: 80px;
+    color: #A6A6A6;
+    font-family:'Inknut Antiqua', serif;
+    text-align: center;
+    line-height:3.5;
+    margin: 0 auto;
+    /* text-shadow: 0.01em 0.01em 0.05em #6e6c6c
+    } */
+}
+/* ------------------------------ */
+
+.ul ul{
+   display:flex;
+   
+   
+}
+
+.ul li {
+   margin: 0 auto;
+}
+
+.ul h4{
+    text-align: center;
+    font-size: 24px;
+    color: #9E8686;
+}  
+
+.ul a{
+    text-decoration: none;
+}
+
+/* -----3個風格設計結束-------- */
+
+.bo::before{
+
+    content: "";
+	display: block;
+	background-color: #D9D9D9;
+	width:200px;
+	height: 15px;
+    float: left;
+    margin-top: 136px;
+ 
+  }
+  .boder::before{
+
+    content: "";
+	display: block;
+	background-color: #D9D9D9;
+	width: 200px;
+	height: 15px;
+    float: right;
+    margin-top: 136px; 
+
+}
+
+/* -----h2 before ------------ */
+
+.swiper {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height:50%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  /* --------------- */
+
+.search{
+    padding: 0 40px;
+}  
+
+.search ul{
+    padding-top: 120px;
+    display: flex;
+}
+
+.search li{
+    margin: 0 auto;
+    margin-bottom: 325px;
+   
+}
+
+.search a{
+    text-decoration: none;
+}
+
+.search h4{
+    text-align: center;
+    font-size: 24px;
+    color: #9E8686;
+}
+
+/* --------------- */
+
+
+.pagetop{
+    position:absolute;
+    right: 50px;
+    bottom: 300px;
+    z-index: 1;
+    /* background: #000; */
+   
+}
+

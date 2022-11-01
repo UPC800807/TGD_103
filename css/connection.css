@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+.column{
+    background-image: url(../com.img/eight/header.png);
+    width: 100%;
+    height: 610px;
+    margin: 77px auto 0 ;  
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 1200px;
+    height: 610px;  
+}
+.column_1{
+    color: #fff;
+    text-shadow: 0.05em 0.05em 0.51em #685e5e
+
+}
+.column_1 h1{
+    font-size: 95px;
+    line-height: 1;
+    white-space:pre-wrap; 
+    padding-top: 8px;
+    padding-left: 405px;
+}
+.column_1 h3{
+    font-size: 32px;
+    line-height: 1.6;
+    text-shadow: 0.05em 0.05em 0.51em #232323;
+    text-align: right;
+    padding-top:40px;
+    padding-right: 40px;   
+}  
+
+/* --------大圖 ENd------------- */
+
+.connection{
+    display: block;
+    width:650px;
+    margin: 80px auto 0;
+}
+
+h2{
+    font-size: 32px;
+    color: #585555;
+    text-align: center;
+    border-bottom:1.5px solid #585555;
+}
+
+.connection2 {
+    padding-top: 50px;
+    font-size: 16px;
+    color: #9E8686;
+
+}
+
+.connection2 {
+    width:555px;
+    display: block;
+    margin: 0 auto;
+   
+}
+.connection2 p{
+    white-space:pre-wrap; 
+}
+
+h5{
+    display: block;
+    text-align: right;
+    color: #585555;
+}
+
+.na{
+    width: 450px;
+    height: 30px;
+    margin-bottom: 10px;
+    border:1px solid  #9E8686; ;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight:bold;
+    color: #9E8686;
+    outline: 0;   
+}
+
+.na:focus{
+background-color: #e8dede;
+color: rgb(78, 71, 71);
+}
+
+.multiple{
+    margin-left: 15px;
+}
+
+textarea{
+    width: 450px;
+    height: 200px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight:bold;
+    border:1px solid  #9E8686; 
+    /* margin-left: 90px; */
+    outline: 0;
+    color: #9E8686;
+    margin-top: 10px;
+}
+
+textarea:focus{
+    background-color: #e8dede;
+    color: rgb(78, 71, 71);
+}   
+
+
+
+.send{
+    font-size: 16px;
+    color:#585555 ;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background-color: #D9D9D9;
+    font-weight:bold;
+    width: 100px;
+    height: 35px;
+    border-radius:5px ;
+    margin-left:270px ;
+    margin-bottom: 300px;
+   
+
+}
+
+/* ---------------- */
+
+.pagetop{
+    position:absolute;
+    right: 40px;
+    bottom: 250px;
+    z-index: 1;
+}

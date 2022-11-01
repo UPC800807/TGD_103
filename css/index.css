@@ -1,0 +1,213 @@
+@import url(reset.css);
+
+
+/* ======= herad  結束 ========== */
+
+.silers img{
+    display: block;
+    width: 100%;
+    top:77px;
+    /* padding-top: 77px; */
+    /* opacity: 0.5; */
+    position: relative;
+
+
+
+    /* position:absolute; */
+}
+
+.main{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+   
+}
+
+.homepage{
+    position: absolute;
+    padding: auto;
+    top:-374px;
+    /* margin: 0 960px; */
+    line-height: normal;
+    width: 100%;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+.homepage h3{
+    font-size: 36px;
+}
+
+/* ==========輪播大圖結束============== */
+
+.content{
+    margin-top: 19% ;
+    display: block;
+    float: left;
+    width: 20%;
+    display: block;
+    margin-left: 110px;
+
+}
+
+.content h1{
+
+    font-size:80px;
+    color: #9E8686;
+    line-height: 1;
+    text-align: right;
+   
+
+}
+    
+.content h2{
+
+    font-size: 56px;
+    color: #9E8686;
+    line-height: 1;
+    text-align: right; 
+    padding-bottom: 40px;
+  
+
+}
+
+ .content P{
+    font-size: 15px;
+    color: #9E8686;
+    font-weight: bolder;
+    text-indent: 30px;
+    text-align: left;
+    padding-left: 20px;
+   
+    /* padding-left: 80px; 
+    
+    border:4px solid #52432A; 
+    line-height: 27px; */
+}  
+
+.content img{
+    display: block;
+    margin: 0 ;
+    margin-top: 180px ;
+    padding-left: 20px;
+   
+}
+
+.page img{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+/* .page-container{
+    width: 1200px;
+} */
+
+/* -------content網站中內容 結束----------- */
+
+.h2{
+    font-size: 80px;
+    color: #A6A6A6;
+    font-family:'Inknut Antiqua', serif;
+    text-align: center;
+    line-height:3.5;
+    margin: 0 auto;
+ 
+    /* width: 30%; */
+ }
+
+ /* ========中空文字段=========== */
+
+
+ .swiper {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height:50%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  /*---橫向nav導航結束----- */
+  .bo::before{
+
+    content: "";
+	display: block;
+	background-color: #D9D9D9;
+	width:320px;
+	height: 15px;
+    float: left;
+    margin-top: 136px;
+ 
+  }
+  .boder::before{
+
+    content: "";
+	display: block;
+	background-color: #D9D9D9;
+	width: 320px;
+	height: 15px;
+    float: right;
+    margin-top: 136px; 
+
+}
+
+/* ---------粗線條+偽元素before+after給他左右區塊線條-------- */
+
+.subnav img{
+    display: block;
+    margin: 0 auto;
+    /* width: 80%;
+    height: 80%; */
+    padding-bottom:120px;
+}
+
+/* ----------subnav：子導航----------- */
+
+.search{
+    display: block;
+    margin: 0 50px ;
+    
+}
+ 
+.search a{
+    color: #585555;
+    font-size: 24px;
+    /* margin-top: 120px; */
+    text-decoration: none;
+    
+}
+
+.search ul{
+    display : flex;
+    text-align: center;
+}
+
+.search li{
+    flex-grow :1 ;
+    margin-bottom: 325px;
+}
+
+
+/* -------------新聞結束----------------- */
+
+.pagetop{
+    position:absolute;
+    right: 50px;
+    bottom: 300px;
+    z-index: 1;
+    /* background: #000; */
+  
+}
+

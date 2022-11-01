@@ -1,0 +1,143 @@
+/* @import url(reset.css); */
+
+.column{
+    background-image: url(../com.img/four/header.png);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto 77px ;  
+   
+}
+
+.column_1{
+    display: block; 
+}
+
+.column_1 h1{
+    font-size: 95px;
+    line-height: 1;
+    text-align: right;
+    color: #727576;
+    margin-right: 473px;
+    padding-top: 139px;
+    padding-bottom: 22px;
+}
+
+.column h3{
+    font-size: 32px;
+    line-height: 1.6;
+    color: #fff;
+    margin-left: 50px;
+    text-shadow: 0.05em 0.05em 0.51em #232323;
+
+}
+
+/* ------heard大圖結束-------- */
+.all{
+display: block;
+width: 1200px;
+margin: 0 auto;
+}
+
+.content1{
+   color: #9E8686;
+  width: 300px;
+}
+
+.content1 h5{
+    font-size: 48px;
+    padding-top: 50px;
+    line-height: 1.6;
+}
+
+.content1 h4{
+    font-size: 24px;
+    border-bottom:2px solid #9E8686 ;
+    margin-right: 30px;
+}
+
+.content1 p{
+    font-size: 15px;
+    padding-right: 20px;
+    text-indent: 30px;    
+}
+
+.content1>.p{
+  padding-top: 50px;
+}
+
+.page{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+/* ---------第一區塊--------------- */
+
+.ul1 ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    width: 1200;
+   
+}
+
+.ul1 li{
+    margin: 0 auto;
+}
+
+/* ----------第二區塊---------- */
+
+.ul2 ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    width: 1200;
+}
+.ul2 li{
+    margin: 0 auto;
+}
+
+/* ---------第三區塊----------------- */
+.img{
+    padding-top: 80px;
+    display:block;
+    margin:auto;
+}
+/* ------第四區塊大圖----------- */
+h2{
+    font-size: 80px;
+    color: #A6A6A6;
+    font-family:'Inknut Antiqua', serif;
+    text-align: center;
+    line-height:3.5;
+    margin: 0 auto;
+}
+/* ---------h2區塊----------- */
+.ul3 ul{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 80px; */
+    width: 1200;
+}
+.ul3 li{
+    margin: 0 auto;
+}
+
+/* --------第四區塊----------- */
+
+.ul4 ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    width: 1200;
+   
+}
+
+.ul4 li{
+    margin: 0 auto;
+    margin-bottom: 310px;
+}

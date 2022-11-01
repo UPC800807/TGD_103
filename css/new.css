@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+.column{
+    background-image: url(../com.img/six/header.png);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto;
+    
+}
+
+.column_1{
+    display: block;
+    padding-top: 170px;
+    padding-left: 50px;
+}
+
+.column_1 h1{
+    font-size: 95px;
+    line-height: 1;
+    white-space:pre-wrap; 
+    color: #fff;
+}
+
+.column h3{
+    font-size: 32px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    margin-top: 177px;
+    text-shadow: 0.05em 0.05em 0.51em #232323;
+
+}
+
+/* ------heard大圖------- */
+
+.nav{
+    margin-top: 80px ;
+}
+
+.ul1{
+    display: flex;
+    width: 1200px;
+    color: #9E8686;
+    margin: 0 auto ;
+}
+
+.ul1 li{
+    margin: 0 auto;
+}
+
+
+.ul1 h2{
+    margin-left: 17px;
+    font-size: 24px;   
+   }
+
+.ul1 h4{
+ width: 480px;
+ margin: 10px auto 0;
+ font-size: 15px;
+}
+
+.ul1 P{
+    margin-left: 430px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* --------ul1----------- */
+
+.ul2{
+    display: flex;
+    width: 1200px;
+    color: #9E8686;
+    margin: 0 auto ;
+}
+
+.ul2 li{
+    margin: 0 auto;
+}
+
+
+.ul2 h2{
+    margin-left: 17px;
+    font-size: 24px;
+    
+   }
+
+.ul2 h4{
+ width: 480px;
+ margin: 10px auto 0;
+ font-size: 15px;
+}
+
+.ul2 P{
+    margin-left: 430px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* --------ul2--------- */
+
+.ul3{
+    display: flex;
+    width: 1200px;
+    color: #9E8686;
+    margin: 0 auto ;
+}
+
+.ul3 li{
+    margin: 0 auto;
+}
+
+
+.ul3 h2{
+    margin-left: 17px;
+    font-size: 24px;
+    
+   }
+
+.ul3 h4{
+ width: 480px;
+ margin: 10px auto 0;
+ font-size: 15px;
+}
+
+.ul3 P{
+    margin-left: 430px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom:300px;
+}
+
+
