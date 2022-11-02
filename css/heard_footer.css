@@ -7,6 +7,11 @@ body{
    
 }
 
+.page-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .fa{
     display: none; 
     text-decoration: none;  
@@ -28,22 +33,23 @@ body{
     background-color: #fff;
     top: 0px;
     z-index: 99;
-   
-    /* opacity:0.5; */
 }
 
 .header{
     display: flex;
+    width: 1280px;
     height:77px;
     align-items: center;
-   
+    margin: 0 auto;   
 }
+
 
 .header ul{
     display: flex;
     margin-left: 115px;
     width: 648px;
     margin-top: 20px;
+   
 /*  margin-left: auto; 在於做flex時不適用子層
  */
 }

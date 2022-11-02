@@ -122,9 +122,12 @@ textarea:focus{
     border-radius:5px ;
     margin-left:270px ;
     margin-bottom: 300px;
-   
-
 }
+.send:hover{
+    background-color: #504f4f;
+    color: #ffffff;
+}
+
 
 /* ---------------- */
 
