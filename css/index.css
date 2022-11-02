@@ -45,6 +45,13 @@
 
 /* ==========輪播大圖結束============== */
 
+.all{
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .content{
     margin-top: 19% ;
     display: block;
